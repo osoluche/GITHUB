@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsindigo.comprendemx"
+    android:versionCode="1"
+    android:versionName="0.14" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="12" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- android:name=".MainActivity" -->
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Default activities -->
+        <activity
+            android:name=".PlanClases"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Plan de clases"
+            android:screenOrientation="landscape" 
+            android:hardwareAccelerated="true" />
+        
+        <activity
+            android:name=".EvaluacionesFormativas"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Evaluaciones Formativas"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EvaluacionesFormativasFormulario"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Evaluaciones Formativas"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ListaResultados"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Resultados"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Resultados"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Resultados"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Configuracion"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Configuración"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LiberarEspacio"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Liberar Espacio ComprendeMx"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PlanesConsultados"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Planes consultados"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HistorialEvaluaciones"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Evaluaciones consultadas"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

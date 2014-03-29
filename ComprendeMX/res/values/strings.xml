@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComprendeMX</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="evaluaciones">Evaluaciones Formativas</string>
+    <string name="desc">Imagen del app</string>
+    <string name="plandeclases">Lecciones</string>
+    <string name="resultados">Resultados Evaluaciones</string>
+    <string name="opt1">A</string>
+    <string name="opt2">B</string>
+    <string name="opt3">C</string>
+    <string name="opt4">D</string>
+    <string name="siguiente">Continuar</string>
+    <string name="bienvenida">Hola que tal!, Configurame !</string>
+	<string name="btnserver">Dirección del maestro </string>
+	<string name="btnusuario">Nombre del alumno </string>
+	<string name="btnsave">Guardar</string>
+	<string name="btnmac">Dirección MAC</string>
+	<string name="btnok">Aceptar</string>
+	<string name="liberarespacio">Liberar espacio</string>
+	<string name="txtclave">Ingresar clave</string>
+	<string name="regresarbtn">Salir</string>
+	<string name="btntemppo">Tiempo de consulta (segundos)</string>
+	<string name="tempotime">300000</string>
+</resources>
